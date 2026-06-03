@@ -1,10 +1,10 @@
-# 📚 eShelf – Premium Library Management System
+# 📚 Premium Library Management System
 
-Welcome to **eShelf**! 🎉 We’ve built this application from the ground up to redefine how libraries, schools, and independent bookstores manage their digital catalogs. 
+Welcome to the **Library Management System**! 🎉 We’ve built this application from the ground up to redefine how libraries, schools, and independent bookstores manage their digital catalogs. 
 
 What started as a simple desktop app is now a **fully modernized, web-based platform** packed with beautiful glassmorphism designs, robust backend Java processing, and actual e-commerce tracking. 
 
-Whether you're an Admin managing global stock, or a Student looking to borrow your next read, eShelf makes it a beautifully seamless experience.
+Whether you're an Admin managing global stock, or a Student looking to borrow your next read, the Library Management System makes it a beautifully seamless experience.
 
 ---
 
@@ -35,7 +35,7 @@ Beyond looks, we've implemented a full suite of features:
 
 ## 🛠️ The Tech Stack Keeping the Lights On
 
-Under the hood, eShelf runs on tried-and-true, unyielding Java infrastructure perfectly bridged with modern frontend execution:
+Under the hood, the Library Management System runs on tried-and-true, unyielding Java infrastructure perfectly bridged with modern frontend execution:
 
 - **Backend Logic:** Java Servlets & JavaServer Pages (JSP)
 - **Database Engine:** MySQL 8.0+ via JDBC Driver Routing
@@ -114,4 +114,4 @@ CREATE TABLE orders (
 ### 3. Firing It Up
 Finally, grab your MySQL Connector `mysql-connector-j.jar` file, drop it into your project's `WEB-INF/lib` folder, compile your Java files to the `classes/` output directory, and start Tomcat! 
 
-Navigate to `http://localhost:8080/eShelf/login.html` to begin your journey. Enjoy the library! ☕📖
+Navigate to `http://localhost:8080/<your-app-context>/login.html` to begin your journey. Enjoy the library! ☕📖
